@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>使用picgo+github搭建免费个人图床</title>
+      <link href="/post/0001.html"/>
+      <url>/post/0001.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在我们写个人博客的时候，会使用到许多图片资源，大多数情况下我们会采用图床来管理这些图片资源。网络上虽然有些免费的图床可以使用，但那些图床要么有时间限制，要么有空间限制，即使不限制时间和空间，你也很难保证这些图床会不会在某一天不再开放使用，到那时你的图片资源就会丢失。所以这里教大家使用PicGo+GitHub搭建一个自己的图床。</p><h1 id="PicGo安装"><a href="#PicGo安装" class="headerlink" title="PicGo安装"></a>PicGo安装</h1><p>首先打开picgo的<a href="https://github.com/Molunerfinn/PicGo">GitHub主页</a>，点击右下角到的releases，进入<a href="https://github.com/Molunerfinn/PicGo/releases">版本选择</a>的页面。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112226781.JPG"></p><p>选择对应的版本，我这里是64位的Windows电脑，所以选择PicGo-Setup-2.3.1-beta-x64.exe</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112227154.JPG"></p><p>安装过程十分简单，按照提示安装即可。</p><h1 id="GitHub配置"><a href="#GitHub配置" class="headerlink" title="GitHub配置"></a>GitHub配置</h1><p>在配置picgo之前，需要先对GitHub进行一些配置。</p><h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><p>可以使用自己已有的仓库，也可以选择新建一个仓库，这里我推荐新建一个仓库。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112228978.JPG"></p><h2 id="获取Token"><a href="#获取Token" class="headerlink" title="获取Token"></a>获取Token</h2><p>点击自己GitHub头像右侧的下三角，选择Settings进入设置页面。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112228911.JPG"></p><p>在设置页面的左侧选择Devoloper settings（开发者设置）选项。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112228536.JPG"></p><p>首先选择Personal access tokens，然后选择Generate new token。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112228639.JPG"></p><p>根据提示填写必要信息。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112229208.JPG"></p><p>获得Token，需要注意一点的是，这个Token只显示这一次，所以一定要保存好。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112229066.JPG"></p><h1 id="PicGo配置"><a href="#PicGo配置" class="headerlink" title="PicGo配置"></a>PicGo配置</h1><p>选择图床设置，选个GitHub，仓库名设置为刚才创建的仓库名，分支名设置为main，Token设置为刚才获取的Token，存储路径根据自己实际情况设置，自定义域名可以不设置。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112229417.JPG"></p><h1 id="PicGo上传图片"><a href="#PicGo上传图片" class="headerlink" title="PicGo上传图片"></a>PicGo上传图片</h1><p>在PicGo软件的上传区，即可上传图片，连接格式可以选择返回的格式。上传完毕后，相册可以看到上传的图片。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112229847.JPG"></p><h1 id="Typora配置"><a href="#Typora配置" class="headerlink" title="Typora配置"></a>Typora配置</h1><p>选择文件 —&gt; 偏好设置 —&gt; 图像 —&gt; 上传服务设定。</p><p>上传服务选择Picgo(app)，Picgo路径设置自已的安装路径。点击验证图片上传选项可以测试一下设置是否成功。</p><p><img src="https://cdn.jsdelivr.net/gh/msxy2020/bolg_img/0001/202209112229031.JPG"></p><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>到此，使用 Picgo+GitHub配置一个免费个人 图床就完成了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> picgo </tag>
+            
+            <tag> github </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
